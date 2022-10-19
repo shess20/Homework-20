@@ -1,0 +1,21 @@
+---
+title: "Homework-20"
+author: "Sierra Hess"
+output: html_document
+---
+
+Set things up
+```{r}
+rm(list = ls())
+library(ggplot2)
+library(here)
+library(dplyr)
+```
+
+Ready for action!
+
+Now look at some built in data
+
+```{r}
+View(cars)
+```
